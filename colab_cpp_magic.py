@@ -38,7 +38,7 @@ class ColabCPPMagic(ipym.Magics):
         return output
 
     @ipym.cell_magic
-    def c(self, line, cell):
+    def cpp(self, line, cell):
         try:
             args = self.argparser.parse_args(line.split())
         except SystemExit as e:
