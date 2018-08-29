@@ -16,9 +16,9 @@ Then load the extension:
 You're now ready to run C++ code.
 
 ## Usage
-To run C++ code, just type '%%cpp' in the beginning of the cell you want to run. Here is a simple Hello World example for you:
+To run C++ code, just type `%%cpp` in the beginning of the cell you want to run. Here is a simple Hello World example for you:
 
-```
+```cpp
 %%cpp
 #include <iostream>
 
