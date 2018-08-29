@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='ColabCPPMagic',
-    version='0.0.1',
+    version='0.0.2',
     author='Francinaldo Almeida',
     author_email='falmeida@dca.ufrn.br',
     py_modules=['colab_cpp_magic'],
